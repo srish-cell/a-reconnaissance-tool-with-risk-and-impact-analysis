@@ -4,7 +4,9 @@ import "./styles/Navbar.css"
 export const Navbar = () => {
     return (
         <nav className="navbar">
+            <div className="title"> Recon Tool</div>
             <ul className="navbar-menu">
+                
                 <li>
                     <Link to="/">Home</Link>
                 </li>
